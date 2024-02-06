@@ -10,6 +10,8 @@ export const db = mysql.createConnection({
  
 })
 
+console.log(db)
+
 if(db){
     console.log("Conexion creada")
 }else{
