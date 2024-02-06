@@ -33,6 +33,6 @@ app.use("/api/mantenimiento", mantenimientoRoutes)
 app.use("/api/desincorporacion", desincorporacionoRoutes)
 app.use("/api/tecnico", tecnicoRoutes)
 app.listen(process.env.PORT, "0.0.0.0",()=>{
-    console.log("Api marchando en el puerto: " process.env.PORT);
+    console.log("Api marchando en el puerto: ", process.env.PORT);
     
 })
