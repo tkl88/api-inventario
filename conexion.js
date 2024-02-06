@@ -10,12 +10,6 @@ export const db = mysql.createConnection({
  
 })
 
-db.connect(function(err){
-        if(err) {
-            console.error("Connection error: " + err.stack);
-            return;
-        }
-    });
 
 if(db){
     console.log("Conexion creada")
